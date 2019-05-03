@@ -14,17 +14,26 @@
 3. Tested proposed hypothesis
 4. Prior approval taken from instructor for project topic
 5. Modified code on the basis of constructive feedback received from peers on "Presentation Day"
-6. Included doctests and unit-tests with 90 % code coverage
+6. Included doctests and unit-tests with 96 % code coverage
 7. All nine functions includes docstrings
 8. Functions run with different input parameters without hard-coded vales (check def names_url() which generates output) for the function (def get_tree()) as it's input.
 9. Hypothesis testing & Conclusion mentioned in ( README.md )
 10. Report from this program uploaded on Github (Superhero Report.txt)
 11. Total lines of code: 600+
 
-![90% Code Coverage Proof](coverage.png)
+![90% Code Coverage Proof](https://github.com/27guptamohit/Superhero_Analysis/blob/master/Data%20Files/coverage.png)
+
+======
+
+## Note:
+The important files to run the program are in the Data folder.
 
 ======
 ## Introduction
+
+### Click on below image to play the video:
+
+[![Marvel or DC!](http://img.youtube.com/vi/HtWuOYiKZKA/0.jpg)](http://www.youtube.com/watch?v=HtWuOYiKZKA "Marvel or DC!")
 
 Marvel and DC are the most famous and prominent names for publishing superhero based movies and related media imprints. The fans have argued since decades about the superiority of characters from each of the comic house and which production house is better. Is it DC Comics or Marvels? 
 
@@ -122,15 +131,22 @@ Total number of Humans and Mutants in the final dataframe:
 | Human  |  38 |
 |  Mutant | 157 |
 
+![Race Count](https://github.com/27guptamohit/Superhero_Analysis/blob/master/Data%20Files/race_count.png)
+
 Que 4. Find the statistics of characters with different hair color, eye color, height and weight.
 
 | Publisher  | Eye Color   | Hair Color  |Count|
 |:---------------:|:-----------:|:------------:|:-----:|
 |   Marvel Comics        |  Brown  |       Black |775|
-|Superman         |  Brown  |      Brown  |621|
-|  Wonder Woman   |  Blue  |       Blond |599|
+|         |  Brown  |      Brown  |621|
+|     |  Blue  |       Blond |599|
 |  DC Comics        |  Brown  |       Black |429|
 |   Marvel Comics     |  Blue  |  Black      |361|
+
+
+![Eye Color](https://github.com/27guptamohit/Superhero_Analysis/blob/master/Data%20Files/eye_color.png)
+
+![Hair Color](https://github.com/27guptamohit/Superhero_Analysis/blob/master/Data%20Files/hair_color.png)
 
 Que 5. Superheros with what hair color and eye color are more prone to live and die?
 
@@ -147,6 +163,7 @@ Que 5. Superheros with what hair color and eye color are more prone to live and 
 |           |  Blue  |       Blond |241|
 |           |  Blue  |       Black |183|
 
+![Total living and decesased characters](https://github.com/27guptamohit/Superhero_Analysis/blob/master/Data%20Files/Alive.png)
 
 Que 6. What their race has to do with their Intelligence, Strength, Speed, Total ?
 
@@ -175,6 +192,12 @@ Que 7. How are height and weight distributed for characters in different publish
 |       Marvel Comics |  Human  |       83.0 |
 |      |  Mutant  |       81.0 |
 
+
+
+![Height & Weight Relation for Publishers](https://github.com/27guptamohit/Superhero_Analysis/blob/master/Data%20Files/hw.png)
+
+![Height Distribution](https://github.com/27guptamohit/Superhero_Analysis/blob/master/Data%20Files/hwcomp.png)
+
 Que 8. How many movie appearances does the characters with most comic appearances have?
 
 |  Superhero Name |Total Movie Appearances   |
@@ -190,6 +213,16 @@ Que 8. How many movie appearances does the characters with most comic appearance
 
 ======
 
+# Correlation plot:
+
+Correlation plot tells you about how strongly two variables are related to each other. Closer the value to 1.0, greater would be the relation between the two variables. 
+
+For eg., to find the correlation between the Durability and Strength, note the box where they both are intersecting.
+The value for the above example is 0.79 which shows that the two variables are strongly correlated as compared to others.
+
+![Correlation Table](https://github.com/27guptamohit/Superhero_Analysis/blob/master/Data%20Files/corr_plot.png)
+
+======
 Conclusion:
 
 Hypothesis 1: Captain America and Iron Man are the most powerful duos in the superhero leagues from all the production houses.
